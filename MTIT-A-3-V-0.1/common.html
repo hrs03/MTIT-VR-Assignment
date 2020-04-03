@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <!-- include A-Frame obviously -->
+ <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+ <!-- include ar.js for A-Frame -->
+ <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+ <a-scene embedded arjs>
+    <a-assets>
+        <a-asset-item id="knife" src="paris/scene.gltf"></a-asset-item>
+        <a-asset-item id="mummy" src="mummy/scene.gltf"></a-asset-item>
+        <a-asset-item id="stone-face" src="stone_face/scene.gltf"></a-asset-item>
+
+        </a-assets>
+
+        <a-marker type="pattern" url="pattern-hiras.patt">
+        <a-entity gltf-model="#knife" modify-materials position="-0.32 0 0"  scale="0.01 0.01 0.01" rotaion="-90 0 0"> 
+       </a-entity>
+       <a-text value="\n Statue of Paris \n Hiras M.H.M \n IT17092852" height="3" width="3" allign="left" color="#003c6e" position="-0.4 -0.5 0" rotaion="-90 0 0"></a-text>
+       </a-marker>
+
+
+        <a-marker type="pattern" url="pattern-wow.patt">
+        <a-entity gltf-model="#stone-face" modify-materials position="0 0 0"  scale="0.002 0.002 0.002" rotaion="-90 0 0"> 
+       </a-entity>
+       <a-text value="\n Ancient Stone Face \n E.A.S.A. Ahamed \n IT17122788" height="3" width="3" allign="left" color="#003c6e" position="-0.4 -0.5 0" rotaion="-90 0 0"></a-text>
+       </a-marker>
+
+        <a-marker type="pattern" url="pattern-hello2.patt">
+        <a-entity gltf-model="#mummy" modify-materials position="-0.25 0 0"  scale="0.04 0.04 0.04" rotaion="-90 0 0"> 
+       </a-entity>
+       <a-text value="\n Model of Mummy \n Safnaj M.M.A \n IT17031776" height="3" width="3" allign="left" color="#003c6e" position="-0.4 -0.5 0" rotaion="-90 0 0"></a-text>
+       </a-marker>
+
+
+
+<a-entity camera></a-entity>
+</a-scene>
+</body>
+</html>

@@ -1,0 +1,450 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1396,
+      "max": [
+        0.30221912264823914,
+        0.89739459753036499,
+        7.1403422355651855
+      ],
+      "min": [
+        -0.40549057722091675,
+        -2.2076804637908936,
+        -2.8445112705230713
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16752,
+      "componentType": 5126,
+      "count": 1396,
+      "max": [
+        0.99812507629394531,
+        0.9980199933052063,
+        0.99999785423278809
+      ],
+      "min": [
+        -0.99812507629394531,
+        -0.9998772144317627,
+        -0.99671930074691772
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1396,
+      "max": [
+        0.99999934434890747,
+        0.99935400485992432,
+        0.99918174743652344,
+        1
+      ],
+      "min": [
+        -0.99985915422439575,
+        -0.99935358762741089,
+        -0.99904030561447144,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5814,
+      "max": [
+        1395
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 33504,
+      "componentType": 5126,
+      "count": 1396,
+      "max": [
+        0.27747121453285217,
+        0.87044501304626465,
+        7.1133403778076172
+      ],
+      "min": [
+        -0.38074266910552979,
+        -2.1878600120544434,
+        -2.8248319625854492
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 50256,
+      "componentType": 5126,
+      "count": 1396,
+      "max": [
+        0.99806100130081177,
+        0.99986016750335693,
+        0.99990570545196533
+      ],
+      "min": [
+        -0.99762314558029175,
+        -0.9999847412109375,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 22336,
+      "componentType": 5126,
+      "count": 1396,
+      "max": [
+        0.99999994039535522,
+        0.99970358610153198,
+        0.99917632341384888,
+        1
+      ],
+      "min": [
+        -0.99999904632568359,
+        -0.99968975782394409,
+        -0.99916177988052368,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1396,
+      "max": [
+        0.9950600266456604,
+        0.9972500205039978
+      ],
+      "min": [
+        0.013450000435113907,
+        0.0039099999703466892
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 23256,
+      "componentType": 5125,
+      "count": 5814,
+      "max": [
+        1395
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "zaxel (https://sketchfab.com/zaxel)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/models/0db42e43c0fb4fe7a917513ae23266e1",
+      "title": "Fruity Sword"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 46512,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11168,
+      "byteOffset": 46512,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 67008,
+      "byteOffset": 57680,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44672,
+      "byteOffset": 124688,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 169360,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/defaultMat_emissive.jpeg"
+    },
+    {
+      "uri": "textures/defaultMat_normal.jpeg"
+    },
+    {
+      "uri": "textures/defaultMat_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "black",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "name": "defaultMat",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.95770514949999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "knife_low.003_black_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "knife_low.002_defaultMat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TANGENT": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.3562588095664978,
+        0.93438732624053955,
+        0,
+        0,
+        -0.93438732624053955,
+        0.3562588095664978,
+        0,
+        0,
+        56.089370727539062,
+        115.47196197509766,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "fruitySword_by_zaxel.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        -99.999999999991871,
+        1.0524778572029604e-05,
+        -3.8941437775530113e-05,
+        0,
+        4.0156106254426163e-05,
+        35.146395475435163,
+        -93.620133300502474,
+        0,
+        3.8331999956914822e-06,
+        -93.620133300510489,
+        -35.146395475436528,
+        0,
+        -107.2281494140625,
+        322.55706787109375,
+        69.915977478027344,
+        1
+      ],
+      "name": "knife_low.003"
+    },
+    {
+      "mesh": 0,
+      "name": "knife_low.003_black_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        -99.999999999991871,
+        1.0524778572029604e-05,
+        -3.8941437775530113e-05,
+        0,
+        4.0156106254426163e-05,
+        35.146395475435163,
+        -93.620133300502474,
+        0,
+        3.8331999956914822e-06,
+        -93.620133300510489,
+        -35.146395475436528,
+        0,
+        -107.2281494140625,
+        322.55706787109375,
+        69.915977478027344,
+        1
+      ],
+      "name": "knife_low.002"
+    },
+    {
+      "mesh": 1,
+      "name": "knife_low.002_defaultMat_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+

@@ -7,16 +7,18 @@
  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 <body style='margin : 0px; overflow: hidden;'>
- <a-scene embedded arjs>
- <a-assets>
- <a-asset-item id="drillModel" src="drill/scene.gltf"></a-asset-item>
- </a-assets>
- <a-marker preset="qrcode-in-marker">
- <a-entity gltf-model="#drillModel" modify-materials position="0 0 -1"  scale="0.01 0.01 0.01"> 
-</a-entity>
-<a-text value="Safnaj"></a-text>
-</a-marker>
-<a-entity camera></a-entity>
-</a-scene>
+    <a-scene embedded arjs>
+        <!-- Assets of Safnaj.MMA - IT17031776 -->
+        <a-assets>
+            <a-asset-item id="dinousar" src="dinousar/scene.gltf"></a-asset-item>
+        </a-assets>
+        <!-- Marker of Safnaj.MMA - IT17031776 -->
+        <a-marker preset="qrcode-in-marker">
+            <a-entity gltf-model="#dinousar" modify-materials position="0 0 -1"  scale="0.01 0.01 0.01"> 
+            </a-entity>
+            <a-text value="Safnaj"></a-text>
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
 </body>
 </html>
